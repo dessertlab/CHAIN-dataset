@@ -88,6 +88,5 @@ check; `--adoption` agentic adoption check; `--harness` harness detection; `--cl
 OpenAI; `--skip-chat` / `--skip-agentic`. Real runs make live API calls and can take hours.
 
 Rebuilding gives the same **methodology and comparable scale**, not byte-identical data:
-GitHub and the chat providers change over time, and the original discovery run of the chat
-dataset used a script version that was not saved.
+GitHub and the chat providers change over time.
 
