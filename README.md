@@ -68,9 +68,6 @@ The CSV files carry only the intent **classification** of each prompt (`main_cat
 `sub_category`, and `all_labels` with the same two fields for every label); the model's reasoning
 behind it is not published.
 
-Only English prompts: a prompt with any Chinese, Japanese or Korean text (or another non-Latin
-script) is treated as non-English (`pipeline/lib_language_filter.py`); see `docs/DATASETS.md`.
-
 Columns, values and keys are documented in [`docs/DATASETS.md`](docs/DATASETS.md).
 
 **Rebuild a dataset**
